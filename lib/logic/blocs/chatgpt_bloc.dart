@@ -14,7 +14,7 @@ class ChatGptBloc extends Bloc<ChatGptEvent, ChatGptState> {
 
     const endpoint = 'https://api.openai.com/v1/engines/davinci/completions';
     final headers = {
-      'Authorization': 'Bearer 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',
+      'Authorization': 'Bearer $API_KEY',
       'Content-Type': 'application/json',
     };
 
